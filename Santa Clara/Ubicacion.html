@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mi-archivo.css">
+    
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="arriba.js"></script>
+<title>Ubicacion - Santa Clara</title>
+    
+    
+        <style>
+      /* Estilos para el carrusel */
+      .carrusel {
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      
+      .carrusel ul {
+        list-style: none;
+        width: 800%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      .carrusel li {
+        width: 12.5%;
+        float: left;
+      }
+      
+      /* Estilos para las imágenes */
+      .carrusel img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+    
+    
+</head>
+
+    
+<body bgcolor = "#DEFC97">
+    
+    
+
+    
+    
+   <table width="100%">
+        
+  <tr>
+    <td align="center"><a href="index.html"><img src="inicio1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+    <td align="center"><a href="Ubicacion.html"><img src="ubi1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+    <td align="center"><a href="Transporte.html"><img src="trans1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+    <td align="center"><a href="Alimentos.html"><img src="alim1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+  </tr>
+  
+</table>
+    
+    
+    
+  <div class="container-fluid my-5">
+    <font face = "helvetica", size = "6"><center><h1>¿Donde queda?</h1></center></font>
+      <br>
+     
+        
+   <span class="ir-arriba icon-circle-up"></span>
+    <section class="contenido">
+      
+      
+   <center><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d122168.25464226803!2d-92.10266861887698!3d16.887863747090087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x85f2ea75bbce0497%3A0x81e00fb4c63eb002!2s29950%20Ocosingo%2C%20Chis.!3m2!1d16.908720199999998!2d-92.0943704!4m5!1s0x85f2dda637e01ab7%3A0x36110c3bd719e9d8!2sCascadas%20De%20Santa%20Clara%2C%20Chiapas!3m2!1d16.8687644!2d-91.9462709!5e0!3m2!1ses-419!2smx!4v1683897162662!5m2!1ses-419!2smx" width="1200" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    <br>      
+      
+      
+      
+      
+
+<br>
+ <font face = "helvetica", size = "3">        
+
+<center><p><h2>Enamorate de este centro ecoturistico desconocido</h2></p></center>
+<center><p><h2>¡Vive la belleza de Chiapas en todo su esplendor!</h2></p></center>          
+     
+   
+      
+     <br>
+      
+      
+    <br>  
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      <br>
+      <br>
+      
+      <center><div style="border-radius: 15px; border: 3px solid #444444; padding: 20px; background-color: rgba(255, 255, 255, 0.7); box-shadow: 5px 5px 5px rgba(0,0,0,0.5); max-width: fit-content;">
+    <center><h3 style="margin-top: 0px; padding: 5px; background-color: #444444; color: white; border-radius: 15px;">Las Cascadas:</h3></center>
+
+ 
+          
+          
+          
+          
+          
+
+    <style>
+    .loader {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 25px 75px rgba(0,0,0,0.55);
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  background: transparent;
+  border: 1px dashed#444;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+  inset 5px 5px 35px rgba(0,0,0,0.25);
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px dashed#444;
+  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+  inset 5px 5px 35px rgba(0,0,0,0.25);
+}
+
+.loader span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  transform-origin: top left;
+  animation: radar81 2s linear infinite;
+  border-top: 1px dashed #fff;
+}
+
+.loader span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: seagreen;
+  transform-origin: top left;
+  transform: rotate(-55deg);
+  filter: blur(30px) drop-shadow(20px 20px 20px seagreen);
+}
+
+@keyframes radar81 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+    </style>
+    
+    
+    <center><div class="loader">
+    <span></span>
+</div></center>
+              
+          
+          
+          
+          
+          
+          
+          
+          
+<p>
+Ubicadas a 15 km de Ocosingo Chiapas, El centro ecoturistico de santa clara consta de 2 cascadas que cuentan con una piscina natural.</p>
+<p>Son lugares 100% naturales con unas cuantas adaptaciones para que puedan pasar un buen rato con su familia o amigos.</p>
+      <p>Visita esta maravilla desconocida, atrevete a probar algo nuevo y no te arrepentiras! </p></center>   
+      
+      </div></center>
+      
+      <br>
+      <br>
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      <center><h3>Ubicacion:</h3></center>
+    
+    <p>
+ Ubicado en el municipio de Ocosingo, 
+        Lamentablemente por la razon de que hay una carretera de 30 minutos de pura terraceria, antes de llegar al parque ecoturistico natural. Sin embargo, esto no impidió que disfrutaramos del paisaje.
+   </p>   
+<br>
+    <center><img src = "imagen4.jpeg", height="600"></img></center>
+ <br>
+    <br>
+     </font> 
+    
+
+ </section>
+
+
+        
+<style>
+    .card {
+  background-color: #B7E36E;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #91B05F,
+              -10px -10px 20px #C2E686;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4px;
+}
+
+.button {
+  background-color: #A0DE3B;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px #76A22F,
+              inset -5px -5px 5px #CEF58F;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 3px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.card .Explore {
+  color: #3035cb;
+}
+
+.card .Explore:hover {
+  background-color: #3035cb;
+  color: #e4e4e4;
+}
+
+.card .Explore svg {
+  fill: #3035cb;
+}
+
+.card .Explore:hover svg {
+  fill: #e4e4e4;
+}
+
+.card .Post {
+  color: #333;
+}
+
+.card .Post:hover {
+  background-color: #333;
+  color: #e4e4e4;
+}
+
+.card .Post svg {
+  fill: #333;
+}
+
+.card .Post:hover svg {
+  fill: #e4e4e4;
+}
+
+.card .Chat {
+  color: #b82323;
+}
+
+.card .Chat:hover {
+  background-color: #b82323;
+  color: #e4e4e4;
+}
+
+.card .Chat svg {
+  fill: #b82323;
+}
+
+.card .Chat:hover svg {
+  fill: #e4e4e4;
+}
+</style>  
+   
+        
+        
+   <div class="card">
+  <button class="button Explore" onclick="window.location.href = 'https://www.facebook.com';">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" class="svg">
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="invisible_box" data-name="invisible box">
+          <rect width="48" height="48" fill="none"></rect>
+        </g>
+        <g id="icons_Q2" data-name="icons Q2">
+          <path d="M24,2A22,22,0,1,0,46,24,21.9,21.9,0,0,0,24,2ZM34.7,14.7,28,28,14.7,34.7a1.1,1.1,0,0,1-1.4-1.4L20,20l13.3-6.7A1.1,1.1,0,0,1,34.7,14.7ZM24,22a2,2,0,1,0,2,2A2,2,0,0,0,24,22Z"></path>
+          <path d="M24,22a2,2,0,1,0,2,2A2,2,0,0,0,24,22Zm0,0a2,2,0,1,0,2,2A2,2,0,0,0,24,22Z"></path>
+        </g>
+      </g>
+    </svg>
+    Facebook
+  </button>
+
+  <button class="button Post" onclick="window.location.href = 'https://www.tu-pagina-de-contacto.com';">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg">
+      <path clip-rule="evenodd" d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 7C12.5523 7 13 7.44772 13 8V11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H13V16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16V13H8C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11H11V8C11 7.44772 11.4477 7 12 7Z"></path>
+    </svg>
+    Contacto
+  </button>
+  
+   <button class="button Chat" onclick="window.location.href = 'https://www.instagram.com';">
+    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg">
+      <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -999.000000)">
+        <g id="icons" transform="translate(56.000000, 160.000000)">
+          <path d="M97.1784026,840.884344 C92.8882915,837.134592 86.2359857,839.256228 84.7592414,844.817545 C84.139128,847.151543 84.7373784,848.235292 84.7373784,849.987037 C84.7373784,851.787636 84,854.395812 84,854.395812 C84,854.714855 84.2832249,855.025921 84.6320386,854.935194 C85.8792217,854.609172 87.8627895,853.964107 90.2349218,854.608175 C98.2119249,856.770688 103.330841,846.261214 97.1784026,840.884344 M103.447113,859 C103.395437,859 103.341773,858.993021 103.287115,858.979063 C96.9806421,857.395812 97.4039887,859.174477 93.8999507,858.237288 C92.8395967,857.954137 91.8746446,857.443669 91.0418642,856.781655 C97.4059763,857.561316 102.710728,852.016948 101.771614,845.487535 C102.732591,846.487535 103.438169,847.72582 103.7363,849.11266 C104.584981,853.048852 102.430484,852.38285 103.983749,858.364905 C104.075176,858.714855 103.765119,859 103.447113,859" id="messages_chat-[#1557]"></path>
+        </g>
+      </g>
+    </svg>
+    Instagram
+  </button>
+</div>
+    <br>
+    <center><footer> Creado por alumno del conalep grupo 6103</footer></center>
+    <br>
+</body>
+</html>

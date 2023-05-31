@@ -1,0 +1,66 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* proporción 16:9 */
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
+  transition: height 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container:hover .overlay {
+  height: 100%;
+  opacity: 0.8;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+/* Estilo para los contenedores /
+div.container {
+  width: 100%;
+  max-width: 1200px; / limite del ancho */
+  margin: 0 auto;
+}
+
+/* Estilo para los indicadores del carrusel */
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+/* Estilo para los items del carrusel /
+div.carousel-item {
+  height: 600px; / altura del carrusel */
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

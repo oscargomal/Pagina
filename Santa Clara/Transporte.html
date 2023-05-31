@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mi-archivo.css">
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="arriba.js"></script>
+    
+<title>Transporte - Santa Clara</title>
+    
+    
+        <style>
+      /* Estilos para el carrusel */
+      .carrusel {
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      
+      .carrusel ul {
+        list-style: none;
+        width: 800%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      .carrusel li {
+        width: 12.5%;
+        float: left;
+      }
+      
+      /* Estilos para las imágenes */
+      .carrusel img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+    
+    
+</head>
+
+    
+<body bgcolor = "#DEFC97">
+    
+    
+
+    
+    
+     <table width="100%">
+        
+  <tr>
+    <td align="center"><a href="index.html"><img src="inicio1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+    <td align="center"><a href="Ubicacion.html"><img src="ubi1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+    <td align="center"><a href="Transporte.html"><img src="trans1.png" width="317" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+    <td align="center"><a href="Alimentos.html"><img src="alim1.png" width="315" height="100" onmouseover="this.style.backgroundColor='lightgreen'" onmouseout="this.style.backgroundColor='transparent'"></a></td>
+  </tr>
+  
+</table>
+    
+    
+    
+    
+  <div class="container-fluid my-5">
+    <font face = "helvetica", size = "6"><center><h1>¿Como llegar?</h1></center></font>
+      <br>
+     
+        
+ <font face = "helvetica", size = "3">    
+     
+     
+     
+   <span class="ir-arriba icon-circle-up"></span>
+    <section class="contenido">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<style>        
+        .loader {
+}
+
+.wheel {
+  fill: rgb(128, 128, 128);
+  font-size: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 6em;
+  text-align: center;
+  animation: rolling 1s linear infinite;
+}
+
+#rim {
+  fill: rgb(126, 126, 126);
+}
+
+#tire {
+  fill: rgb(55, 55, 55);
+}
+
+.road {
+  position: absolute;
+  margin-top: -4px;
+  width: 100%;
+  height: 10px;
+  border-radius: 5em;
+  background-color: rgb(55, 55, 55);
+  animation: road-move 2s linear infinite;
+}
+
+@keyframes rolling {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes road-move {
+  from {
+    transform: translateX(-140%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+</style>        
+ <center>       
+ <div class="loader">
+	<svg class="wheel" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 254.532 254.532" xml:space="preserve">
+		<g>
+			<path id="tire" d="M127.267,0C57.092,0,0,57.091,0,127.266s57.092,127.266,127.267,127.266c70.174,0,127.266-57.091,127.266-127.266
+				S197.44,0,127.267,0z M127.267,217.656c-49.922,0-90.391-40.468-90.391-90.39s40.469-90.39,90.391-90.39
+				c49.92,0,90.39,40.468,90.39,90.39S177.186,217.656,127.267,217.656z"></path>
+			<path id="rim" d="M127.267,48.578c-43.39,0-78.689,35.299-78.689,78.688c0,43.389,35.3,78.688,78.689,78.688
+				c43.389,0,78.688-35.299,78.688-78.688C205.955,83.877,170.655,48.578,127.267,48.578z M195.878,122.249h-38.18
+				c-0.78-4.825-2.686-9.275-5.435-13.079l26.954-26.954C188.679,93.112,194.771,106.996,195.878,122.249z M132.204,58.648
+				c15.244,1.087,29.123,7.156,40.025,16.591l-26.948,26.949c-3.804-2.748-8.253-4.653-13.077-5.433V58.648z M122.329,58.648v38.106
+				c-4.824,0.78-9.274,2.685-13.078,5.434L82.302,75.24C93.204,65.805,107.085,59.735,122.329,58.648z M75.313,82.217l26.955,26.954
+				c-2.749,3.803-4.654,8.253-5.434,13.077h-38.18C59.761,106.996,65.853,93.113,75.313,82.217z M58.643,132.123h38.192
+				c0.779,4.824,2.685,9.274,5.434,13.078l-27.029,27.029C65.788,161.308,59.714,147.398,58.643,132.123z M122.329,195.884
+				c-15.285-1.09-29.197-7.188-40.113-16.666l27.035-27.035c3.804,2.749,8.254,4.654,13.078,5.434V195.884z M122.329,147.459v0.072
+				c-2.131-0.518-4.131-1.36-5.953-2.474l0.047-0.047c-2.85-1.738-5.244-4.132-6.982-6.983l-0.046,0.046
+				c-1.114-1.822-1.956-3.821-2.474-5.952h0.071c-0.385-1.585-0.611-3.233-0.611-4.937c0-1.704,0.227-3.352,0.611-4.937h-0.071
+				c0.518-2.13,1.359-4.129,2.474-5.951l0.046,0.046c1.738-2.85,4.133-5.245,6.982-6.982l-0.047-0.047
+				c1.822-1.114,3.822-1.957,5.953-2.474v0.072c1.586-0.385,3.233-0.612,4.938-0.612s3.352,0.227,4.938,0.612v-0.072
+				c2.131,0.518,4.13,1.359,5.951,2.473l-0.047,0.047c2.851,1.737,5.245,4.132,6.983,6.982l0.046-0.046
+				c1.115,1.822,1.957,3.822,2.475,5.953h-0.071c0.385,1.585,0.611,3.233,0.611,4.937c0,1.704-0.227,3.352-0.611,4.937h0.071
+				c-0.518,2.131-1.359,4.131-2.475,5.953l-0.046-0.046c-1.738,2.85-4.133,5.244-6.983,6.982l0.047,0.046
+				c-1.821,1.114-3.82,1.956-5.951,2.474v-0.072c-1.586,0.385-3.233,0.612-4.938,0.612S123.915,147.845,122.329,147.459z
+				M132.204,195.884v-38.267c4.824-0.78,9.273-2.685,13.077-5.433l27.034,27.034C161.4,188.696,147.488,194.794,132.204,195.884z
+				M179.292,172.23l-27.028-27.028c2.749-3.804,4.654-8.254,5.435-13.079h38.191C194.818,147.398,188.745,161.308,179.292,172.23z"></path>
+		</g>
+		</svg>
+	<div class="road"></div>
+</div></center>
+        
+        <br>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+      
+    <center>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1AtZOf07Dk100gfx_V3Uq_dsuYGewgf8&ehbc=2E312F" width="1140" height="1180"></iframe></center>
+    
+    
+     <div class="carrusel">
+      <button class="boton anterior">&#10094;</button>
+      <button class="boton siguiente">&#10095;</button>
+      <ul>
+        <li><img src="urban.jpeg" alt="Imagen 1"></li>
+        <li><img src="imagen2.jpg" alt="Imagen 2"></li>
+        <li><img src="imagen3.jpg" alt="Imagen 3"></li>
+        <li><vid src="imagen4.jpg" alt="Imagen 4"></li>
+        <li><img src="imagen5.jpg" alt="Imagen 5"></li>
+        <li><img src="imagen6.jpg" alt="Imagen 6"></li>
+        <li><img src="imagen7.jpg" alt="Imagen 7"></li>
+        <li><img src="imagen8.jpg" alt="Imagen 8"></li>
+      </ul>
+    </div>
+     
+     
+    <script>
+  // Variables
+  var carrusel = document.querySelector('.carrusel ul');
+  var botones = document.querySelectorAll('.carrusel .boton');
+  var ancho = carrusel.offsetWidth / 8;
+  var posicion = 0;
+  
+  // Funciones
+  function moverCarrusel() {
+    carrusel.style.transform = 'translateX(' + (-posicion * ancho) + 'px)';
+  }
+  
+  function avanzar() {
+    if (posicion >= 7) {
+      posicion = 0;
+    } else {
+      posicion++;
+    }
+    moverCarrusel();
+  }
+  
+  function retroceder() {
+    if (posicion <= 0) {
+      posicion = 7;
+    } else {
+      posicion--;
+    }
+    moverCarrusel();
+  }
+  
+  // Eventos
+  botones[0].addEventListener('click', retroceder);
+  botones[1].addEventListener('click', avanzar);
+</script>
+    
+    
+    
+   <center><h1>Hay 2 formas de llegar:</h1>
+   <b> 
+    <ol>
+    <li> Por camionetitas</li>
+    <li>En automovil propio</li>
+    </ol>    
+</b></center> 
+       
+        
+        
+      <br>
+      <br>
+  
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    <ol>
+    <li> Nuestro viaje empezó a las 12:40 de la tarde, salimos del parque central de Ocosingo rumbo a la carretera rumbo a Toniná, ustedes pueden ir rumbo  a la ganadera, todo derecho y salen en la carretera ######## pudimos disfrutar de la hermosa vista de las montañas y los bosques que rodean la zona. El camino estaba bien pavimentado, pero había algunos baches aquí y allá que hicieron que el viaje fuera un poco más difícil, ya que hay un camino aproximado de 30 minutos de pura terracería, antes de llegar al parque ecoturístico natural. Sin embargo, esto no impidió que disfrutáramos del paisaje. </li>    
+    </ol>    
+
+   <br> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div style="border-radius: 15px; border: 3px solid darkgreen; padding: 20px; background-color: lightgreen;">
+    <p>
+        Un consejo importante es que lleven, trajes de baño, ropa para cambiarse, toallas, comida ya hecha o si gustan comprar comida por si les da hambre en el camino o si quieren botanear, ya que el trayecto es largo y no existen tiendas tan surtidas como la antes mencionada. Es posible que también vayan a ver algunos puestos de comida en la carretera, por ejemplo, en la UTS que podrían ofrecer comida, pero no les recomiendo ya que está muy retirado y no existe mucha variedad.
+    </p>
+    <br>
+    <br>
+     <p>
+    En cuanto a la zona alrededor de las cascadas, es posible que haya algunas tiendas cerca de la entrada del parque o alrededor de las piscinas naturales. Estas tiendas podrían vender artesanías locales, camisetas, sombreros, trajes de baño, protector solar, botanas, bebidas y otros artículos. También podrían encontrar algún restaurante o puesto de comida que sirva comida típica de la región, como tacos, enchiladas, tamales y otros platillos.
+</p>
+</div>
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<br>            
+
+      
+      
+      
+En general, la región de Chiapas es conocida por su rica cultura y artesanías, pero lamentablemente no existen tiendas o vendedores que ofrezcan artesanías hechas a mano como tejidos, bordados, joyas y otros productos. pero para poder llegar algunos lugares de interés turístico como iglesias, ruinas mayas, donde podrían haber visto más vistas impresionantes y oportunidades para tomar fotos. </p>     
+     
+  
+<p>se encuentran a unos 15 km de distancia y aproximadamente a una hora de distancia. El día estaba claro y soleado, con una temperatura agradable de alrededor de 25 grados Celsius.
+Mientras conducían por la carretera, 
+    <p>
+
+    
+    <ul>
+    <li> Después de unos 20 minutos de viaje, llegamos a un pequeño pueblo donde decidieron hacer una parada para tomar un refresco y descansar un poco. </li>    
+    </ul>          
+        
+El pueblo era pintoresco y lleno de vida, con gente amable y acogedora que los saludó cordialmente. Aprovecharon la parada para tomar algunas fotos y comprar algunos souvenirs.
+Después de unos 30 minutos, continuaron su viaje hacia las cascadas de Santa Clara. El camino se volvió un poco más estrecho y empinado, lo que hizo que el viaje fuera un poco más emocionante. Pasaron por algunos ríos y arroyos, y vieron algunos animales salvajes como monos, aves y reptiles. Todo esto hizo que el viaje fuera aún más interesante.
+Finalmente, después de unos 45 minutos de viaje, llegaron a las cascadas de Santa Clara. El lugar era simplemente impresionante, con hermosas cascadas de agua cristalina y piscinas naturales donde la gente podía nadar y refrescarse del calor. El sonido del agua y la belleza natural del lugar eran simplemente cautivadores.
+</p>
+    
+    <ul>
+    <li> Decidieron pasar un par de horas en las cascadas, disfrutando del paisaje y nadando en las piscinas naturales. </li>    
+    </ul> 
+          <p>
+ Había mucha gente allí, pero todavía había suficiente espacio para todos. También había algunas tiendas de comida y bebida, donde pudieron comprar algunas botanas y bebidas frías para refrescarse.
+Finalmente, a las 1:40 pm, decidieron que era hora de regresar a la ciudad de Ocosingo. A pesar de que se habían entretenido en las cascadas y habían pasado más tiempo del esperado allí, todavía llegaron a casa a tiempo para la cena. En general, fue un viaje increíble que recordarían por mucho tiempo.
+             
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <br>        
+<style>
+    .card {
+  background-color: #B7E36E;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #91B05F,
+              -10px -10px 20px #C2E686;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4px;
+}
+
+.button {
+  background-color: #A0DE3B;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px #76A22F,
+              inset -5px -5px 5px #CEF58F;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 3px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.card .Explore {
+  color: #3035cb;
+}
+
+.card .Explore:hover {
+  background-color: #3035cb;
+  color: #e4e4e4;
+}
+
+.card .Explore svg {
+  fill: #3035cb;
+}
+
+.card .Explore:hover svg {
+  fill: #e4e4e4;
+}
+
+.card .Post {
+  color: #333;
+}
+
+.card .Post:hover {
+  background-color: #333;
+  color: #e4e4e4;
+}
+
+.card .Post svg {
+  fill: #333;
+}
+
+.card .Post:hover svg {
+  fill: #e4e4e4;
+}
+
+.card .Chat {
+  color: #b82323;
+}
+
+.card .Chat:hover {
+  background-color: #b82323;
+  color: #e4e4e4;
+}
+
+.card .Chat svg {
+  fill: #b82323;
+}
+
+.card .Chat:hover svg {
+  fill: #e4e4e4;
+}
+</style>  
+   
+        
+        
+   <div class="card">
+  <button class="button Explore" onclick="window.location.href = 'https://www.facebook.com';">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" class="svg">
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="invisible_box" data-name="invisible box">
+          <rect width="48" height="48" fill="none"></rect>
+        </g>
+        <g id="icons_Q2" data-name="icons Q2">
+          <path d="M24,2A22,22,0,1,0,46,24,21.9,21.9,0,0,0,24,2ZM34.7,14.7,28,28,14.7,34.7a1.1,1.1,0,0,1-1.4-1.4L20,20l13.3-6.7A1.1,1.1,0,0,1,34.7,14.7ZM24,22a2,2,0,1,0,2,2A2,2,0,0,0,24,22Z"></path>
+          <path d="M24,22a2,2,0,1,0,2,2A2,2,0,0,0,24,22Zm0,0a2,2,0,1,0,2,2A2,2,0,0,0,24,22Z"></path>
+        </g>
+      </g>
+    </svg>
+    Facebook
+  </button>
+
+  <button class="button Post" onclick="window.location.href = 'https://www.tu-pagina-de-contacto.com';">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg">
+      <path clip-rule="evenodd" d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 7C12.5523 7 13 7.44772 13 8V11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H13V16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16V13H8C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11H11V8C11 7.44772 11.4477 7 12 7Z"></path>
+    </svg>
+    Contacto
+  </button>
+  
+   <button class="button Chat" onclick="window.location.href = 'https://www.instagram.com';">
+    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg">
+      <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -999.000000)">
+        <g id="icons" transform="translate(56.000000, 160.000000)">
+          <path d="M97.1784026,840.884344 C92.8882915,837.134592 86.2359857,839.256228 84.7592414,844.817545 C84.139128,847.151543 84.7373784,848.235292 84.7373784,849.987037 C84.7373784,851.787636 84,854.395812 84,854.395812 C84,854.714855 84.2832249,855.025921 84.6320386,854.935194 C85.8792217,854.609172 87.8627895,853.964107 90.2349218,854.608175 C98.2119249,856.770688 103.330841,846.261214 97.1784026,840.884344 M103.447113,859 C103.395437,859 103.341773,858.993021 103.287115,858.979063 C96.9806421,857.395812 97.4039887,859.174477 93.8999507,858.237288 C92.8395967,857.954137 91.8746446,857.443669 91.0418642,856.781655 C97.4059763,857.561316 102.710728,852.016948 101.771614,845.487535 C102.732591,846.487535 103.438169,847.72582 103.7363,849.11266 C104.584981,853.048852 102.430484,852.38285 103.983749,858.364905 C104.075176,858.714855 103.765119,859 103.447113,859" id="messages_chat-[#1557]"></path>
+        </g>
+      </g>
+    </svg>
+    Instagram
+  </button>
+</div>
+    
+        
+        
+    <br>
+    
+    <center><footer> Creado por alumno del Conalep grupo 6103</footer></center>
+
+    
+</body>
+</html>
